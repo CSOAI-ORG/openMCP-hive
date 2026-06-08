@@ -1,0 +1,37 @@
+# openMCP
+
+> Cross-post CLI + audit engine — feeds the GEO/AEO loop.
+> Open. Transparent. Governed.
+
+## Key facts
+
+- **Domain:** openMCP
+- **Tier:** infra
+- **MCP endpoint:** https://openMCP/mcp (streamable-HTTP, MCP 1.27.2)
+- **A2A Agent Card:** https://openMCP/.well-known/agent-card.json
+- **Open source:** https://github.com/CSOAI-ORG/openMCP-hive (MIT)
+- **Pricing (x402 micro-call):** Free
+- **Pricing (SaaS tier):** Freemium
+- **Memory mode:** shared
+- **Knowledge subgraph scope:** MCP server directory listings, audit scores, cross-post runs
+
+## Tools exposed (MCP)
+
+- openMCP
+
+## Cross-hive integrations
+
+- openmoe.ai (audit target)
+- meok.ai (audit target)
+
+## Brand
+
+- **Palette:** audit green + transport blue
+- **Voice:** Librarian, audit-first, byte-identical. Speaks in scorecards and rank.
+
+## Sources
+
+- Hive architecture: https://github.com/CSOAI-ORG/meok-compliance-gateway/blob/main/FLEET_BASE.md
+- Global strategy: see the MEOK memory file meok-global-strategy-2026-06-07
+- Crown jewels: see the MEOK memory file meok-crown-jewels-2026-06-07
+- GEO strategy: see the MEOK memory file meok-geo-strategy-2026-06-07
