@@ -1,0 +1,20 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "openMCP",
+    "description": "Cross-post CLI + audit engine \u2014 feeds the GEO/AEO loop.",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://openMCP"
+      }
+    ],
+    "capabilities": [
+      "openMCP",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}

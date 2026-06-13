@@ -1,0 +1,36 @@
+{
+  "name": "openMCP",
+  "description": "Cross-post CLI + audit engine \u2014 feeds the GEO/AEO loop.",
+  "url": "https://openMCP.ai",
+  "provider": {
+    "organization": "CSOAI LTD (UK Companies House 16939677)",
+    "url": "https://csoai.org"
+  },
+  "version": "1.0.0",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "governance-check",
+      "name": "openMCP Governance Check",
+      "description": "Verify compliance against openMCP frameworks."
+    },
+    {
+      "id": "attestation",
+      "name": "Signed Attestation",
+      "description": "Generate HMAC-signed compliance certs for openMCP."
+    }
+  ],
+  "endpoints": {
+    "catalogue": "https://www.proofof.ai",
+    "standards": "https://csoai.org"
+  }
+}
